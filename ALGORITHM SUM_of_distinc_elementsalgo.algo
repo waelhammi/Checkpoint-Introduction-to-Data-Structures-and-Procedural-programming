@@ -1,0 +1,40 @@
+ALGORITHM SUM_of_distinc_elements
+
+Var 
+
+SET 1 := [];
+SET 2 := [];
+SUM := 0;
+i,j := INTEGER;
+
+BEGIN
+
+  write("type the SET 1")
+
+  read(SET 1)
+
+   write("type the SET 2")
+
+  read(SET 2)
+
+REPEAT
+
+   for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j <= i; j++)
+        {
+            if (j == i)
+            {
+                sum += A[i];
+            }
+            if (A[i] == A[j])
+            {
+                break;
+            }
+        }
+    }
+
+write( "Sum of all distinct element is ",sum)
+
+END
+

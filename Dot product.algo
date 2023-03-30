@@ -1,0 +1,27 @@
+PROCEDURE procedure_name(Vec1, Vec2)
+VAR
+    
+BEGIN
+    write("Insert the Vec1 1")
+
+  read(SET 1)
+
+   write("Insert the Vec2 2")
+
+  read(SET 2)
+  for (let i = 0; i < n; i++)
+            product = product + vect_A[i] * vect_B[i];
+        return product;
+END
+
+ALGORITHM orthogonal
+
+BEGIN
+    for (let i = 0; i < vectors.length; i++) {
+  for (let j = i + 1; j < vectors.length; j++) {
+    if (dotProduct(vectors[i], vectors[j]) === 0) {
+      write(vectors[i] and vectors[j] are orthogonal )
+    }
+  }
+}
+END
